@@ -6,6 +6,7 @@ import (
 )
 
 var Log *zap.Logger
+var SugarLog *zap.SugaredLogger
 
 func SetLogger(zapConfig zap.Config) error {
 	logger, err := zapConfig.Build()
@@ -14,6 +15,7 @@ func SetLogger(zapConfig zap.Config) error {
 	}
 
 	Log = logger
+	SugarLog = logger.Sugar()
 
 	return nil
 }

@@ -1,21 +1,21 @@
 appConfig:
-	name: Go SVG Pathfinding
-	port: 3000
+  name: Go SVG Pathfinding
+  port: 3000
 webConfig:
-	port: 8080
+  port: 8080
 databaseConfig: 
-	connection: pgsql
-	host: 127.0.0.1
-	port: 5432
-	username: postgres
-	password: postgres
+  connection: pgsql
+  host: 127.0.0.1
+  port: 5432
+  username: postgres
+  password: postgres
 zapConfig: &zapConfig
-	level: debug
-	encoding: json
-	outputPaths: [stdout, ./tmp/logs]
-	errorOutputPaths: [stderr]
-	initialFields:
-	encoderConfig: 
-			messageKey: message,
-			levelKey: level,
-			levelEncoder: lowercase
+  level: debug
+  encoding: json
+  outputPaths: [stdout, ./tmp/logs]
+  errorOutputPaths: [stderr]
+  initialFields:
+  encoderConfig: 
+      messageKey: message,
+      levelKey: level,
+      levelEncoder: lowercase
