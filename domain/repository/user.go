@@ -1,4 +1,4 @@
-package user
+package repository
 
 import "wsc2017/domain/model"
 

@@ -3,12 +3,20 @@ appConfig:
   port: 3000
 webConfig:
   port: 8080
-databaseConfig: 
-  connection: pgsql
+pgConfig: &pgConfig
+  code: pgsql
   host: 127.0.0.1
   port: 5432
+  dbName: shortest_path_svg
   username: postgres
   password: postgres
+mongoConfig:  &mongoConfig
+  code: mongodb
+  host: 127.0.0.1
+  port: 27017
+  dbName: shortest_path_svg
+  username:
+  password:
 zapConfig: &zapConfig
   level: debug
   encoding: json
@@ -19,3 +27,16 @@ zapConfig: &zapConfig
       messageKey: message,
       levelKey: level,
       levelEncoder: lowercase
+repositoryConfig: 
+  place:
+    code: place
+    databaseConfig: *pgConfig
+  schedule:
+    code: schedule
+    databaseConfig: *pgConfig
+  user:
+    code: user
+    databaseConfig: *pgConfig
+  route:
+    code: route
+    databaseConfig: *mongoConfig

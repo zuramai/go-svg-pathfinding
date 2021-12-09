@@ -10,10 +10,12 @@ import (
 )
 
 type Config struct {
-	AppConfig      ApplicationConfig `yaml:"appConfig"`
-	DatabaseConfig DatastoreConfig   `yaml:"databaseConfig"`
-	WebConfig      WebConfig         `yaml:"webConfig"`
-	ZapConfig      zap.Config        `yaml:"zapConfig"`
+	AppConfig        ApplicationConfig `yaml:"appConfig"`
+	RepositoryConfig RepositoryConfig  `yaml:"repositoryConfig"`
+	MongoConfig      DatastoreConfig   `yaml:"mongoConfig"`
+	PgConfig         DatastoreConfig   `yaml:"pgConfig"`
+	WebConfig        WebConfig         `yaml:"webConfig"`
+	ZapConfig        zap.Config        `yaml:"zapConfig"`
 }
 
 type ApplicationConfig struct {
@@ -22,16 +24,34 @@ type ApplicationConfig struct {
 }
 
 type DatastoreConfig struct {
-	Connection string `yaml:"connection"`
-	Host       string `yaml:"host"`
-	Port       string `yaml:"port"`
-	Username   string `yaml:"username"`
-	Password   string `yaml:"password"`
+	Code     string `yaml:"code"`
+	Host     string `yaml:"host"`
+	Port     int    `yaml:"port"`
+	DBName   string `yaml:"dbName"`
+	Username string `yaml:"username"`
+	Password string `yaml:"password"`
 }
 
 type WebConfig struct {
 	Port string `yaml:"port"`
 }
+
+type RepositoryConfig struct {
+	Place    *Repository `yaml:"place"`
+	Route    *Repository `yaml:"route"`
+	User     *Repository `yaml:"user"`
+	Schedule *Repository `yaml:"schedule"`
+}
+
+type Repository struct {
+	Code           string          `yaml:"code"`
+	DatabaseConfig DatastoreConfig `yaml:"databaseConfig"`
+}
+
+const (
+	MONGODB = "mongodb"
+	POSTGRE = "pgsql"
+)
 
 func BuildConfig(filename string) (*Config, error) {
 	var config Config

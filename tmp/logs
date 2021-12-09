@@ -5,3 +5,46 @@
 {"level,":"debug","message,":"Logger construction succeed"}
 {"level,":"debug","message,":"Logger construction succeed"}
 {"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"The content of db is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
