@@ -17,11 +17,13 @@ type ServiceContainer struct {
 
 func (sc *ServiceContainer) Get(code string) (interface{}, bool) {
 	value, found := sc.FactoryMap[code]
-	logger.SugarLog.Debugf("Finding %s and found %v", code, value)
+	if found {
+		logger.SugarLog.Debugf("Finding %s and found", code)
+	}
 	return value, found
 }
 
 func (sc *ServiceContainer) Put(code string, value interface{}) {
-	logger.SugarLog.Debugf("Putting %s ", code, value)
+	logger.SugarLog.Debugf("Putting %s in container", code)
 	sc.FactoryMap[code] = value
 }

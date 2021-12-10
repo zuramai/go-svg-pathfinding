@@ -12,25 +12,27 @@ type PlaceRepository struct {
 	DB *pgx.Conn
 }
 
-func (pr *PlaceRepository) GetAllPlace() ([]*model.Place, error) {
+func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 	db := pr.DB
 
-	var places []*model.Place
+	var places []model.Place
+	var place model.Place
 
-	rows, err := db.Query(context.Background(), "SELECT * FROM places")
-
+	err := db.QueryRow(context.Background(), "SELECT * FROM places").Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
 	if err != nil {
 		logger.SugarLog.Errorf("Get all place failed %v\n", err)
-		return nil, pgx.ErrNoRows
+		return nil, err
 	}
+	places = append(places, place)
 
-	for rows.Next() {
-		var place model.Place
+	// for rows.Next() {
 
-		rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+	// 	rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
 
-		places = append(places, &place)
-	}
+	// 	logger.SugarLog.Debug(place.Id)
+
+	// 	places = append(places, place)
+	// }
 
 	return places, nil
 }

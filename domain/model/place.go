@@ -4,7 +4,7 @@ import "time"
 
 type Place struct {
 	Id          int64
-	Code        int64
+	Code        string
 	Name        string
 	Latitude    float64
 	Longitude   float64

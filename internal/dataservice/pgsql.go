@@ -1,20 +1,25 @@
-package pgsql
+package dataservice
 
 import (
 	"context"
 	"fmt"
-	"os"
 	"wsc2017/app/container"
 	"wsc2017/config"
-	"wsc2017/internal/dataservice"
 	"wsc2017/internal/logger"
 
 	"github.com/jackc/pgx/v4"
+	"github.com/pkg/errors"
 )
 
 type PgService struct{}
 
-func (pg *PgService) Build(c container.Container, dsc *config.DatastoreConfig) (dataservice.DataStoreInterface, error) {
+func (pg *PgService) Build(c container.Container, dsc *config.DatastoreConfig) (DataStoreInterface, error) {
+
+	if value, found := c.Get(dsc.Code); found {
+		logger.SugarLog.Infof("Found database connection in container with key: %s", dsc.Code)
+		return value.(*pgx.Conn), nil
+	}
+
 	connString := fmt.Sprintf("postgres://%s:%s@%s:%d/%s", dsc.Username, dsc.Password, dsc.Host, dsc.Port, dsc.DBName)
 
 	conn, err := pgx.Connect(context.Background(), connString)
@@ -23,12 +28,10 @@ func (pg *PgService) Build(c container.Container, dsc *config.DatastoreConfig) (
 
 	if err != nil {
 		logger.SugarLog.Errorf("Unable to connect to database: %v\n", err)
-		os.Exit(1)
+		return nil, errors.New("Error connecting to postgresql service")
 	}
 
 	c.Put(dsc.Code, conn)
-
-	defer conn.Close(context.Background())
 
 	return conn, nil
 }

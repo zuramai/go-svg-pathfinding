@@ -3,17 +3,13 @@ package dataservice
 import (
 	"wsc2017/app/container"
 	"wsc2017/config"
-	"wsc2017/internal/dataservice/mongodb"
-	"wsc2017/internal/dataservice/pgsql"
-	"wsc2017/internal/logger"
-	"wsc2017/vendor/go.mongodb.org/mongo-driver/mongo"
 )
 
 type DataStoreInterface interface{}
 
 var dataserviceMap = map[string]DataServiceFBInterface{
-	config.MONGODB: mongodb.MongoService{},
-	config.POSTGRE: pgsql.PgService{},
+	config.MONGODB: &MongoService{},
+	config.POSTGRE: &PgService{},
 }
 
 // The builder interface for factory method pattern
@@ -26,12 +22,15 @@ func getDataServiceFb(code string) DataServiceFBInterface {
 	return dataserviceMap[code]
 }
 
-func BuildConnection(c *container.ServiceContainer, code string) DataStoreInterface {
-	ds := getDataServiceFb(code)
-	ds.Build(c, c.Config)
-	if value, found := c.Get(code); found {
-		logger.SugarLog.Infof("Found database connection in container with key: %s")
-		return value.(*mongo.Database)
+func BuildConnection(c *container.ServiceContainer, dbConfig config.DatastoreConfig) DataStoreInterface {
+	code := dbConfig.Code
+	dsBuilder := getDataServiceFb(code)
+
+	dsi, err := dsBuilder.Build(c, &dbConfig)
+
+	if err != nil {
+		return nil
 	}
 
+	return dsi
 }

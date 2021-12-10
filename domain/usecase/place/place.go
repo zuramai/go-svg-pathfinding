@@ -9,7 +9,7 @@ type PlaceUseCase struct {
 	PlaceRepository *repository.PlaceRepository
 }
 
-func (puc *PlaceUseCase) GetAllPlace() ([]*model.Place, error) {
+func (puc *PlaceUseCase) GetAllPlace() ([]model.Place, error) {
 	places, err := puc.PlaceRepository.GetAllPlace()
 
 	if err != nil {

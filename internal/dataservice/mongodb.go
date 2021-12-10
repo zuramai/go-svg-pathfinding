@@ -1,4 +1,4 @@
-package mongodb
+package dataservice
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"time"
 	"wsc2017/app/container"
 	"wsc2017/config"
-	"wsc2017/internal/dataservice"
+	"wsc2017/internal/logger"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -14,7 +14,14 @@ import (
 
 type MongoService struct{}
 
-func (m *MongoService) Build(c container.Container, dsc *config.DatastoreConfig) (dataservice.DataStoreInterface, error) {
+func (m MongoService) Build(c container.Container, dsc *config.DatastoreConfig) (DataStoreInterface, error) {
+
+	// Check if connection is cached in container
+	if value, found := c.Get(dsc.Code); found {
+		logger.SugarLog.Debug("Found database connection in container key: %s", dsc.Code)
+		return value, nil
+	}
+
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
@@ -28,5 +35,10 @@ func (m *MongoService) Build(c container.Container, dsc *config.DatastoreConfig)
 		}
 	}()
 
-	return client.Database(dsc.DBName), nil
+	db := client.Database(dsc.DBName)
+
+	c.Put(dsc.Code, db)
+	c.Put("mongoCtx", ctx)
+
+	return db, nil
 }

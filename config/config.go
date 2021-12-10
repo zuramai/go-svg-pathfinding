@@ -48,9 +48,18 @@ type Repository struct {
 	DatabaseConfig DatastoreConfig `yaml:"databaseConfig"`
 }
 
+// Datastore Codes
 const (
 	MONGODB = "mongodb"
 	POSTGRE = "pgsql"
+)
+
+// Repository codes
+const (
+	PLACE    = "place"
+	SCHEDULE = "schedule"
+	USER     = "user"
+	ROUTE    = "route"
 )
 
 func BuildConfig(filename string) (*Config, error) {

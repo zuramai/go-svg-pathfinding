@@ -48,3 +48,101 @@
 {"level,":"info","message,":"GetPlace called"}
 {"level,":"debug","message,":"Finding pgsql and found <nil>"}
 {"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"The content of db pgsql is: <nil>"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"error","message,":"Unable to connect to database: failed to connect to `host=127.0.0.1 user=postgres database=shortest_path_svg`: server error (FATAL: database \"shortest_path_svg\" does not exist (SQLSTATE 3D000))\n"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc000472160 0xc000454000 map[] 0xc0004060c0 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [] {[] [] [] []}})"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc0000f6160 0xc0000dc000 map[] 0xc0000a0120 <nil> 4 [] 0xc00008e3c0 0xc00008e420 0xc00008a480 [] [] {[] [] [] []}})"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found <nil>"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc000472160 0xc000454000 map[] 0xc0004060c0 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [] {[] [] [] []}})"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found &{0xc000472160 0xc000454000 map[] 0xc0004060c0 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [{<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []}] {[] [] [] []}}"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found &{0xc000472160 0xc000454000 map[] 0xc0004060c0 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [{<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []} {<nil> <nil> <nil> [] 0 <nil> [] {0 0 <nil>}  [] false <nil> <nil> <nil> []}] {[] [] [] []}}"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc000472160 0xc000452000 map[] 0xc0004060c0 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [] {[] [] [] []}})"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc000472160 0xc000452000 map[] 0xc000406180 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [] {[] [] [] []}})"}
+{"level,":"error","message,":"Get all place failed conn closed\n"}
+{"level,":"info","message,":"Error getplace: conn closed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql %!(EXTRA *pgx.Conn=&{0xc000472160 0xc000452000 map[] 0xc000406120 <nil> 4 [] 0xc0004142a0 0xc000414300 0xc00042a300 [] [] {[] [] [] []}})"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"[0xc000448090]"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"&[0xc000448090]"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"[{1 0  0 0 0 0   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}]"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Get all place failed number of field descriptions must equal number of destinations, got 9 and 2\n"}
+{"level,":"info","message,":"Error getplace: number of field descriptions must equal number of destinations, got 9 and 2"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Get all place failed can't scan into dest[1]: unable to assign to *int64\n"}
+{"level,":"info","message,":"Error getplace: can't scan into dest[1]: unable to assign to *int64"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}

@@ -9,9 +9,6 @@ import (
 	"wsc2017/domain/model"
 	"wsc2017/domain/repository"
 	placerepo "wsc2017/domain/usecase/place"
-	"wsc2017/internal/logger"
-
-	"github.com/jackc/pgx/v4"
 )
 
 type AuthUseCaseInterface interface {
@@ -20,7 +17,7 @@ type AuthUseCaseInterface interface {
 }
 
 type PlaceUseCaseInterface interface {
-	GetAllPlace() ([]*model.Place, error)
+	GetAllPlace() ([]model.Place, error)
 	ShowPlace(id int64) (*model.Place, error)
 	StorePlace(place *model.Place) (*model.Place, error)
 	UpdatePlace(id int64, place *model.Place) (*model.Place, error)
@@ -28,12 +25,7 @@ type PlaceUseCaseInterface interface {
 }
 
 func GetPlaceUseCase(c *container.ServiceContainer) PlaceUseCaseInterface {
-	db, found := c.Get(c.Config.RepositoryConfig.Place.DatabaseConfig.Code)
-	if found {
-		logger.Log.Error("DB NOT FOUND IN CONTAINER")
-	}
-	logger.SugarLog.Debugf("The content of db %s is: %v", c.Config.PgConfig.Code, db)
-	repo := repository.PlaceRepository{DB: db.(*pgx.Conn)}
+	placeRepo := repository.BuildRepository(c, *c.Config.RepositoryConfig.Place)
 
-	return &placerepo.PlaceUseCase{PlaceRepository: &repo}
+	return &placerepo.PlaceUseCase{PlaceRepository: placeRepo.(*repository.PlaceRepository)}
 }
