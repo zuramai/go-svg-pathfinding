@@ -14,7 +14,7 @@ import (
 
 type MongoService struct{}
 
-func (m MongoService) Build(c container.Container, dsc *config.DatastoreConfig) (DataStoreInterface, error) {
+func (m *MongoService) Build(c container.Container, dsc *config.DatastoreConfig) (DataStoreInterface, error) {
 
 	// Check if connection is cached in container
 	if value, found := c.Get(dsc.Code); found {

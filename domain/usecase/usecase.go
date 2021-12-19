@@ -8,12 +8,14 @@ import (
 	"wsc2017/app/container"
 	"wsc2017/domain/model"
 	"wsc2017/domain/repository"
-	placerepo "wsc2017/domain/usecase/place"
+	authUc "wsc2017/domain/usecase/auth"
+	placeUc "wsc2017/domain/usecase/place"
+	"wsc2017/internal/common"
 )
 
 type AuthUseCaseInterface interface {
-	Login()
-	Logout()
+	Login(credentials *model.User) (*common.Response, error)
+	Logout(token *model.LoginToken) (*model.User, error)
 }
 
 type PlaceUseCaseInterface interface {
@@ -27,5 +29,11 @@ type PlaceUseCaseInterface interface {
 func GetPlaceUseCase(c *container.ServiceContainer) PlaceUseCaseInterface {
 	placeRepo := repository.BuildRepository(c, *c.Config.RepositoryConfig.Place)
 
-	return &placerepo.PlaceUseCase{PlaceRepository: placeRepo.(*repository.PlaceRepository)}
+	return &placeUc.PlaceUseCase{PlaceRepository: placeRepo.(*repository.PlaceRepository)}
+}
+
+func GetAuthUseCase(c *container.ServiceContainer) AuthUseCaseInterface {
+	userRepo := repository.BuildRepository(c, *c.Config.RepositoryConfig.User)
+
+	return &authUc.AuthUseCase{UserRepository: userRepo.(*repository.UserRepository)}
 }

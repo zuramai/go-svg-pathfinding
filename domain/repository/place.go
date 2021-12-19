@@ -18,21 +18,20 @@ func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 	var places []model.Place
 	var place model.Place
 
-	err := db.QueryRow(context.Background(), "SELECT * FROM places").Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+	rows, err := db.Query(context.Background(), "SELECT * FROM places")
 	if err != nil {
 		logger.SugarLog.Errorf("Get all place failed %v\n", err)
 		return nil, err
 	}
-	places = append(places, place)
 
-	// for rows.Next() {
+	for rows.Next() {
 
-	// 	rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+		rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
 
-	// 	logger.SugarLog.Debug(place.Id)
+		logger.SugarLog.Debug(place.Id)
 
-	// 	places = append(places, place)
-	// }
+		places = append(places, place)
+	}
 
 	return places, nil
 }

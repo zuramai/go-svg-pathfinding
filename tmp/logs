@@ -146,3 +146,296 @@
 {"level,":"info","message,":"GetPlace called"}
 {"level,":"debug","message,":"Connecting to postgresql"}
 {"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error parsing request: schema: interface must be a pointer to struct"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: can't scan into dest[4]: cannot assign NULL to *time.Time"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: can't scan into dest[4]: cannot assign NULL to *time.Time"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Create token called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Create token called"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Username: %s, Password: $sadminadmin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Username: %s, Password: %sadminadmin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Username: admin, Password: admin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Username: admin, Password: admin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"user found %sadmin"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"error","message,":"Error login: crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow err %!(EXTRA string=$2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li)"}
+{"level,":"error","message,":"Error login: crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"error","message,":"Error login: crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"error","message,":"Bcrypt error"}
+{"level,":"error","message,":"Error login: crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"Gak masuk"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}

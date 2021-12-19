@@ -1,12 +1,14 @@
 package model
 
-import "time"
+import (
+	"github.com/jackc/pgtype"
+)
 
 type User struct {
-	id        int64
-	username  string
-	password  string
-	role      string
-	createdAt time.Time
-	updatedAt time.Time
+	Id        int64            `json:"id"`
+	Username  string           `json:"username"`
+	Password  string           `json:"password"`
+	Role      string           `json:"role"`
+	CreatedAt pgtype.Timestamp `json:"-"`
+	UpdatedAt pgtype.Timestamp `json:"-"`
 }

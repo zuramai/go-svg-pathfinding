@@ -10,7 +10,7 @@ import (
 func RegisterRoutes(app *fiber.App, sc *container.ServiceContainer) {
 	c := controller.NewController(sc)
 
-	api := app.Group("/api/v1")
+	api := app.Group("/v1")
 	api.Post("/auth/login", c.Login)
 	api.Get("/auth/logout", c.Logout)
 
