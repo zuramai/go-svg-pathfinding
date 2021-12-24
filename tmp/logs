@@ -439,3 +439,412 @@
 {"level,":"debug","message,":"Putting pgsql in container"}
 {"level,":"error","message,":"Error login: no rows in result set"}
 {"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: Unprocessable Entity"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"GetPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"1"}
+{"level,":"debug","message,":"2"}
+{"level,":"debug","message,":"3"}
+{"level,":"debug","message,":"4"}
+{"level,":"debug","message,":"5"}
+{"level,":"debug","message,":"6"}
+{"level,":"debug","message,":"7"}
+{"level,":"debug","message,":"8"}
+{"level,":"debug","message,":"9"}
+{"level,":"debug","message,":"10"}
+{"level,":"debug","message,":"11"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error parsing request: Unprocessable Entity"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: Unprocessable Entity"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error parsing request: Unprocessable Entity"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: open ../storage/images/places/03ad2cc7230d58a0bf7ce9d56dcc5a79.jpg81: The system cannot find the path specified."}
+{"level,":"debug","message,":"statusCode %d422"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: open ../storage/images/places/03ad2cc7230d58a0bf7ce9d56dcc5a79.jpg87: The system cannot find the path specified."}
+{"level,":"debug","message,":"statusCode %d422"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: open /storage/images/places/03ad2cc7230d58a0bf7ce9d56dcc5a79.jpg81: The system cannot find the path specified."}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: open ../storage/images/places/03ad2cc7230d58a0bf7ce9d56dcc5a79.jpg81: The system cannot find the path specified."}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: expected 8 arguments, got 9"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: could not determine data type of parameter $1 (SQLSTATE 42P18)"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: invalid input syntax for type bigint: \"\" (SQLSTATE 22P02)"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: could not determine data type of parameter $1 (SQLSTATE 42P18)"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: could not determine data type of parameter $1 (SQLSTATE 42P18)"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: expected 7 arguments, got 8"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: duplicate key value violates unique constraint \"places_pkey\" (SQLSTATE 23505)"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: value too long for type character varying(3) (SQLSTATE 22001)"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: duplicate key value violates unique constraint \"places_pkey\" (SQLSTATE 23505)"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: duplicate key value violates unique constraint \"places_pkey\" (SQLSTATE 23505)"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: duplicate key value violates unique constraint \"unique_code\" (SQLSTATE 23505)"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Error storeplace: failed to insert place: ERROR: value too long for type character varying(50) (SQLSTATE 22001)"}
+{"level,":"info","message,":"ShowPlace called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}

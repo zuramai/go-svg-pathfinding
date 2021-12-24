@@ -36,6 +36,16 @@ func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 	return places, nil
 }
 
+func (pr *PlaceRepository) GetPlaceById(id int64) (model.Place, error) {
+	db := pr.DB
+
+	var place model.Place
+
+	db.QueryRow(context.Background(), "SELECT * FROM places WHERE id=$1", id).Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+
+	return place, nil
+}
+
 // func (pr *PlaceRepository) GetPlaceByID(id int64) (*model.Place, error) {
 
 // }
@@ -44,9 +54,18 @@ func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 
 // }
 
-// func (pr *PlaceRepository) InsertPlace() (*model.Place, error) {
+func (pr *PlaceRepository) InsertPlace(place *model.Place) (*model.Place, error) {
+	db := pr.DB
 
-// }
+	_, err := db.Exec(context.Background(),
+		"INSERT INTO places VALUES(DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8)", place.Code, place.Name, place.Latitude, place.Longitude, place.X, place.Y, place.ImagePath, place.Description)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return place, nil
+}
 
 // func (pr *PlaceRepository) DeletePlace() (rowsAffected int, err error) {
 

@@ -27,7 +27,7 @@ func (auc *AuthUseCase) Login(credentials *model.User) (*common.Response, error)
 		return nil, errors.NewInvalidLoginError(err)
 	}
 
-	response := common.NewResponse(fiber.Map{
+	response := common.NewResponse(200, fiber.Map{
 		"token": token,
 		"role":  user.Role,
 	})

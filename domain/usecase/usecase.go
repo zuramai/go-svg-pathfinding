@@ -5,12 +5,15 @@
 package usecase
 
 import (
+	"mime/multipart"
 	"wsc2017/app/container"
 	"wsc2017/domain/model"
 	"wsc2017/domain/repository"
 	authUc "wsc2017/domain/usecase/auth"
 	placeUc "wsc2017/domain/usecase/place"
 	"wsc2017/internal/common"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 type AuthUseCaseInterface interface {
@@ -19,10 +22,10 @@ type AuthUseCaseInterface interface {
 }
 
 type PlaceUseCaseInterface interface {
-	GetAllPlace() ([]model.Place, error)
-	ShowPlace(id int64) (*model.Place, error)
-	StorePlace(place *model.Place) (*model.Place, error)
-	UpdatePlace(id int64, place *model.Place) (*model.Place, error)
+	GetAllPlace() (*common.Response, error)
+	ShowPlace(id int64) (*common.Response, error)
+	StorePlace(c *fiber.Ctx, place *model.Place, image *multipart.FileHeader) (*common.Response, error)
+	UpdatePlace(id int64, place *model.Place) (*common.Response, error)
 	DeletePlace(id int64) (rowsAffected int, err error)
 }
 

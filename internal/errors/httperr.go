@@ -8,9 +8,9 @@ import (
 
 func SendErrorResponse(c *fiber.Ctx, err error) error {
 	serr, ok := err.(*ErrorResponse)
-	logger.SugarLog.Debug("statusCode %d", serr.statusCode)
 	if !ok {
-		return c.JSON(serr)
+		return c.JSON(fiber.Map{"error": err.Error()})
 	}
+	logger.SugarLog.Debug("statusCode %d", serr.statusCode)
 	return c.Status(serr.statusCode).JSON(serr)
 }
