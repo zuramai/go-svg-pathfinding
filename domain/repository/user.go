@@ -51,7 +51,7 @@ func (ur *UserRepository) CreateToken(user *model.User) (string, error) {
 	tokenString := hex.EncodeToString(token[:])
 
 	// Insert token to database
-	_, err := ur.DB.Exec(context.Background(), "INSERT INTO login_tokens(user_id, token) VALUES($1,$2)", user.Id, tokenString)
+	_, err := ur.DB.Exec(context.Background(), "INSERT INTO login_tokens(user_id, token) VALUES($1,$2) ON CONFLICT (user_id) DO NOTHING", user.Id, tokenString)
 
 	if err != nil {
 		return "", err
@@ -60,6 +60,27 @@ func (ur *UserRepository) CreateToken(user *model.User) (string, error) {
 	return tokenString, nil
 }
 
+func (ur *UserRepository) RevokeToken(token string) error {
+	_, err := ur.DB.Exec(context.Background(), "DELETE FROM login_tokens WHERE token=$1", token)
+
+	if err != nil {
+		logger.SugarLog.Fatalf("Revoke login token error %v", err)
+	}
+
+	return nil
+}
+
 func (ur *UserRepository) GetUserFromToken(token string) (*model.User, error) {
-	return nil, nil
+	var user model.User
+
+	logger.SugarLog.Info("Searching for token: ", token)
+
+	err := ur.DB.QueryRow(context.Background(), "SELECT users.* FROM users JOIN login_tokens lt ON lt.user_id = users.id WHERE lt.token = $1", token).
+		Scan(&user.Id, &user.Username, &user.Password, &user.Role, &user.CreatedAt, &user.UpdatedAt)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &user, nil
 }

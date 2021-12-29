@@ -18,7 +18,7 @@ import (
 
 type AuthUseCaseInterface interface {
 	Login(credentials *model.User) (*common.Response, error)
-	Logout(token *model.LoginToken) (*model.User, error)
+	Logout(token string) (*common.Response, error)
 }
 
 type PlaceUseCaseInterface interface {

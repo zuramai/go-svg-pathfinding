@@ -26,7 +26,11 @@ func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 
 	for rows.Next() {
 
-		rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+		err = rows.Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+		if err != nil {
+			logger.SugarLog.Errorf("rows scan error", err)
+			return nil, err
+		}
 
 		logger.SugarLog.Debug(place.Id)
 
@@ -36,14 +40,17 @@ func (pr *PlaceRepository) GetAllPlace() ([]model.Place, error) {
 	return places, nil
 }
 
-func (pr *PlaceRepository) GetPlaceById(id int64) (model.Place, error) {
+func (pr *PlaceRepository) GetPlaceById(id int64) (*model.Place, error) {
 	db := pr.DB
 
 	var place model.Place
 
-	db.QueryRow(context.Background(), "SELECT * FROM places WHERE id=$1", id).Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+	err := db.QueryRow(context.Background(), "SELECT * FROM places WHERE id=$1", id).Scan(&place.Id, &place.Code, &place.Name, &place.Latitude, &place.Longitude, &place.X, &place.Y, &place.ImagePath, &place.Description)
+	if err != nil {
+		return nil, err
+	}
 
-	return place, nil
+	return &place, nil
 }
 
 // func (pr *PlaceRepository) GetPlaceByID(id int64) (*model.Place, error) {

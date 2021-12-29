@@ -848,3 +848,167 @@
 {"level,":"info","message,":"ShowPlace called"}
 {"level,":"debug","message,":"Finding pgsql and found"}
 {"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"error","message,":"Error login: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"token is empty"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Get user from token error"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Searching for token: 8674d18d78c8a52e1589d013c6b159e9"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"error","message,":"Error login: ERROR: there is no unique or exclusion constraint matching the ON CONFLICT specification (SQLSTATE 42P10)"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"info","message,":"Login called"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"debug","message,":"Queryrow err $2y$10$yb/pi.XyJSCoR3KVDFHFO.JGOrI7O8vD2ysP4We.aed3EH8VVW5li"}
+{"level,":"info","message,":"Create token called for admin"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Revoking token: "}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Logger construction succeed"}
+{"level,":"debug","message,":"Connecting to postgresql"}
+{"level,":"debug","message,":"Putting pgsql in container"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"logout called"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}
+{"level,":"debug","message,":"Finding pgsql and found"}
+{"level,":"info","message,":"Found database connection in container with key: pgsql"}
+{"level,":"info","message,":"Searching for token: 21232f297a57a5a743894a0e4a801fc3"}
+{"level,":"info","message,":"Get user from token error: no rows in result set"}
+{"level,":"debug","message,":"statusCode %d401"}

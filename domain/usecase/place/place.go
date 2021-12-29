@@ -39,6 +39,7 @@ func (puc *PlaceUseCase) ShowPlace(id int64) (*common.Response, error) {
 
 	return &resp, nil
 }
+
 func (puc *PlaceUseCase) StorePlace(c *fiber.Ctx, place *model.Place, image *multipart.FileHeader) (*common.Response, error) {
 	imagename := image.Filename
 
@@ -48,7 +49,6 @@ func (puc *PlaceUseCase) StorePlace(c *fiber.Ctx, place *model.Place, image *mul
 	}
 
 	place.ImagePath = fmt.Sprintf("%s/storage/images/places/%s", c.BaseURL(), imagename)
-
 	place.Code = strings.ToLower(place.Name)[0:3]
 
 	_, err = puc.PlaceRepository.InsertPlace(place)
@@ -61,9 +61,11 @@ func (puc *PlaceUseCase) StorePlace(c *fiber.Ctx, place *model.Place, image *mul
 
 	return &resp, nil
 }
+
 func (puc *PlaceUseCase) UpdatePlace(id int64, place *model.Place) (*common.Response, error) {
 	return nil, nil
 }
+
 func (puc *PlaceUseCase) DeletePlace(id int64) (rowsAffected int, err error) {
 	return 0, nil
 }

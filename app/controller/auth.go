@@ -33,5 +33,18 @@ func (controller *Controller) Login(c *fiber.Ctx) error {
 }
 
 func (controller *Controller) Logout(c *fiber.Ctx) error {
-	return nil
+	logger.Log.Info("logout called")
+
+	auc := usecase.GetAuthUseCase(controller.Container)
+
+	token := c.Query("token")
+
+	logout, err := auc.Logout(token)
+
+	if err != nil {
+		logger.SugarLog.Errorf("Error logout: %v", err)
+		return errors.SendErrorResponse(c, err)
+	}
+
+	return logout.SendResponse(c)
 }

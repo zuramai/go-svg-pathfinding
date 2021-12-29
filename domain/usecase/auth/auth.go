@@ -35,6 +35,16 @@ func (auc *AuthUseCase) Login(credentials *model.User) (*common.Response, error)
 	return &response, nil
 }
 
-func (auc *AuthUseCase) Logout(token *model.LoginToken) (*model.User, error) {
-	return nil, nil
+func (auc *AuthUseCase) Logout(token string) (*common.Response, error) {
+	err := auc.UserRepository.RevokeToken(token)
+
+	if err != nil {
+		return nil, errors.NewUnauthorizedError(err)
+	}
+
+	response := common.NewResponse(200, fiber.Map{
+		"message": "logout success",
+	})
+
+	return &response, nil
 }
